@@ -1,0 +1,70 @@
+$color-Primary: rgb(218, 165, 32);
+$color-Secondary: rgb(170, 169, 173);
+$color-tertiary: rgb(0, 0, 0);
+
+/* ==========================================================================
+Navbar styles
+========================================================================== */
+.header {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.navbar-brand {
+    overflow: hidden;
+}
+
+.jh-navbar .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-version {
+    font-size: 10px;
+    color: $color-Primary;
+    padding: 0 0 0 10px;
+}
+
+.brand-logo {
+    &:hover {
+        text-decoration: none;
+    }
+    .brand-icon {
+        height: 35px;
+        width: auto;
+        display: inline-block;
+        img {
+            height: 45px;
+        }
+    }
+}
+
+.brand-title {
+    font-size: 24px;
+    color: $color-Primary;
+    &:hover {
+        color: $color-Secondary;
+        text-decoration: none;
+    }
+}
+
+.loading-bar {
+    height: 3px;
+    background-color: #009cd8;
+    position: absolute;
+    top: 0px;
+    z-index: 1031;
+}
+
+.navbar-link {
+    font-size: 20px;
+    color: $color-Primary;
+    &:hover {
+        color: $color-Secondary;
+        text-decoration: none;
+    }
+}
+
+.navbar-icon {
+    font-size: 30px;
+    color: $color-Primary;
+    padding-right: 4px;
+}
