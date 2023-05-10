@@ -45,7 +45,7 @@
     "react-toastify": "^9.0.8",
     "reflect-metadata": "^0.1.13",
     "sinon": "^15.0.3",
-    "typeorm": "^0.3.14"
+    "typeorm": "^0.3.16"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
