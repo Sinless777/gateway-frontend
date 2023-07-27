@@ -57,7 +57,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.8",
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.0",
-    "@types/lodash": "^4.14.186",
+    "@types/lodash": "^4.14.196",
     "@types/mocha": "^10.0.0",
     "@types/node": "^18.15.5",
     "@types/react": "^18.0.34",
